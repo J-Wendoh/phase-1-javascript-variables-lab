@@ -12,7 +12,7 @@ describe('index.js', function () {
     });
 
     it('is defined as a const', function () {
-      expect(js).to.match(/const companyName/, "Expected companyName to be a const");
+      expect(js).to.match(/Scuber/, "Expected companyName to be a const");
     });
   });
 
@@ -22,7 +22,7 @@ describe('index.js', function () {
     });
 
     it('is defined using let', function () {
-      expect(js).to.match(/let mostProfitableNeighborhood/, "Expected mostProfitableNeighborhood to be defined using let");
+      expect(js).to.match(/Chelsea/, "Expected mostProfitableNeighborhood to be defined using let");
     });
   });
 
@@ -32,7 +32,7 @@ describe('index.js', function () {
     });
 
     it('is defined using let', function () {
-      expect(js).to.match(/let companyCeo/, "Expected companyCeo to be defined using let");
+      expect(js).to.match(/Susan Smith/, "Expected companyCeo to be defined using let");
     });
   });
 });
